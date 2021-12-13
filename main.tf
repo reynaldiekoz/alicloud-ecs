@@ -15,7 +15,7 @@ provider "alicloud" {
 }
 
 #Module call to launch 6 ecs instance  
-module "alicloud-rey-test" {
+module "alicloud-ecs" {
   source            = "./modules/alicloud-rey-test"
   name              = "reynaldi-tf-test"
   name_instance1    = "app1-reytf"
